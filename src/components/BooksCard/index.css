@@ -1,0 +1,69 @@
+.book-list-item {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.book-link-item {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto';
+}
+.book-details-text-container {
+  padding: 15px;
+  font-family: 'Roboto';
+}
+.book-cover-pic {
+  height: 180px;
+  border-radius: 6px;
+  width: 120px;
+  flex-shrink: 0;
+}
+.book-title {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.book-author-name {
+  font-size: 17px;
+  line-height: 1;
+  color: rgb(82, 73, 73);
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+.book-status-text {
+  color: rgb(6, 133, 236);
+}
+.book-status {
+  color: grey;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.star-icon {
+  height: 14px;
+  width: auto;
+
+  margin-right: 7px;
+  margin-left: 7px;
+}
+.book-rating {
+  line-height: 1;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  color: grey;
+}
+
+@media screen and (min-width: 767px) {
+  .book-list-item {
+    width: 50%;
+  }
+}

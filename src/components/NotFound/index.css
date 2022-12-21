@@ -1,0 +1,28 @@
+.not-found-bg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+}
+.not-found-img {
+  width: 60%;
+  max-width: 300px;
+  height: auto;
+}
+.not-found-head {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 7px;
+}
+.not-found-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(76, 82, 76);
+  font-weight: 500;
+  width: 90%;
+  max-width: 340px;
+  text-align: center;
+}

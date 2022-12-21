@@ -1,0 +1,149 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+.home-container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home-head {
+  font-size: 22px;
+  line-height: 1;
+}
+.home-description {
+  font-size: 15px;
+  color: #475569;
+  font-weight: 500;
+}
+
+.find-books-btn {
+  background: #0284c7;
+  color: white;
+  font-weight: 500;
+  border-style: none;
+  padding: 7px 15px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.slider-container {
+  padding: 10px 30px;
+  background-color: white;
+}
+.slider {
+  width: 100%;
+}
+.home-details-container {
+  padding: 20px;
+}
+.slider-img-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0px;
+
+  align-items: center;
+  min-height: 310px;
+}
+.slider-img {
+  height: auto;
+  width: 100%;
+}
+.find-link {
+  text-decoration: none;
+}
+.slider-title {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1;
+  flex-grow: 1;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.slider-head-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.slider-author-name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: rgb(95, 93, 93);
+}
+
+.lg-find-btn {
+  display: none;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.slider-link {
+  text-decoration: none;
+  color: black;
+}
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+.result-main-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.failure-img {
+  width: 50%;
+  height: auto;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.failure-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 767px) {
+  .sm-btn {
+    display: none;
+  }
+  .home-container {
+    padding: 10px 50px;
+  }
+  .slider-container {
+    box-shadow: 1px 0px 0px 1px gray;
+    border-radius: 15px;
+  }
+  .home-details-container {
+    padding: 0px;
+  }
+  .lg-find-btn {
+    display: block;
+  }
+  .slider-img-container {
+    min-height: 420px;
+  }
+  .slider-head-btn-container {
+    margin-bottom: 10px;
+  }
+  .failure-img {
+    width: 40%;
+  }
+}
